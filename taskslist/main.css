@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #78ff85;
+  max-width: max-content;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.task-list li.completed {
+  text-decoration: line-through;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input[type="text"] {
+  padding: 5px;
+  width: 200px;
+}
+
+.task-form button {
+  padding: 5px 10px;
+}
